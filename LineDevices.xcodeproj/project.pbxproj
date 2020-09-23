@@ -14,6 +14,21 @@
 		95968FC9251A46D100304417 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95968FC8251A46D100304417 /* GameViewController.swift */; };
 		95968FCC251A46D100304417 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95968FCA251A46D100304417 /* Main.storyboard */; };
 		95968FCE251A46D400304417 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95968FCD251A46D400304417 /* Assets.xcassets */; };
+		95969058251A471400304417 /* selected.wav in Resources */ = {isa = PBXBuildFile; fileRef = 95969012251A471300304417 /* selected.wav */; };
+		95969059251A471400304417 /* magic.wav in Resources */ = {isa = PBXBuildFile; fileRef = 95969013251A471300304417 /* magic.wav */; };
+		9596905A251A471400304417 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 95969015251A471300304417 /* background.png */; };
+		9596905B251A471400304417 /* scoreboard.png in Resources */ = {isa = PBXBuildFile; fileRef = 95969016251A471300304417 /* scoreboard.png */; };
+		9596905C251A471400304417 /* jewel_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 95969018251A471300304417 /* jewel_1.png */; };
+		9596905D251A471400304417 /* jewel_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 95969019251A471300304417 /* jewel_3.png */; };
+		9596905E251A471400304417 /* jewel_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 9596901A251A471300304417 /* jewel_2.png */; };
+		9596905F251A471400304417 /* jewel_6.png in Resources */ = {isa = PBXBuildFile; fileRef = 9596901B251A471300304417 /* jewel_6.png */; };
+		95969060251A471400304417 /* jewel_5.png in Resources */ = {isa = PBXBuildFile; fileRef = 9596901C251A471300304417 /* jewel_5.png */; };
+		95969061251A471400304417 /* jewel_4.png in Resources */ = {isa = PBXBuildFile; fileRef = 9596901D251A471300304417 /* jewel_4.png */; };
+		95969069251A491600304417 /* LineTile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95969068251A491600304417 /* LineTile.swift */; };
+		9596906C251A49A800304417 /* LineModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9596906B251A49A800304417 /* LineModel.swift */; };
+		95969071251A4F8000304417 /* LineUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95969070251A4F8000304417 /* LineUtils.swift */; };
+		95969075251AACBB00304417 /* match.sks in Resources */ = {isa = PBXBuildFile; fileRef = 95969074251AACBB00304417 /* match.sks */; };
+		95969078251AB14500304417 /* LineScoreBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95969077251AB14500304417 /* LineScoreBoard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +41,21 @@
 		95968FCB251A46D100304417 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		95968FCD251A46D400304417 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		95968FCF251A46D400304417 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95969012251A471300304417 /* selected.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = selected.wav; sourceTree = "<group>"; };
+		95969013251A471300304417 /* magic.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = magic.wav; sourceTree = "<group>"; };
+		95969015251A471300304417 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		95969016251A471300304417 /* scoreboard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scoreboard.png; sourceTree = "<group>"; };
+		95969018251A471300304417 /* jewel_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jewel_1.png; sourceTree = "<group>"; };
+		95969019251A471300304417 /* jewel_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jewel_3.png; sourceTree = "<group>"; };
+		9596901A251A471300304417 /* jewel_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jewel_2.png; sourceTree = "<group>"; };
+		9596901B251A471300304417 /* jewel_6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jewel_6.png; sourceTree = "<group>"; };
+		9596901C251A471300304417 /* jewel_5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jewel_5.png; sourceTree = "<group>"; };
+		9596901D251A471300304417 /* jewel_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jewel_4.png; sourceTree = "<group>"; };
+		95969068251A491600304417 /* LineTile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineTile.swift; sourceTree = "<group>"; };
+		9596906B251A49A800304417 /* LineModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineModel.swift; sourceTree = "<group>"; };
+		95969070251A4F8000304417 /* LineUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineUtils.swift; sourceTree = "<group>"; };
+		95969074251AACBB00304417 /* match.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = match.sks; sourceTree = "<group>"; };
+		95969077251AB14500304417 /* LineScoreBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineScoreBoard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +69,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		95526246251AE3000052DE17 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				95969014251A471300304417 /* Images */,
+				95969017251A471300304417 /* Jewels */,
+				95969011251A471300304417 /* Sounds */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
 		95968FB4251A46D100304417 = {
 			isa = PBXGroup;
 			children = (
@@ -59,15 +99,76 @@
 			isa = PBXGroup;
 			children = (
 				95968FC0251A46D100304417 /* AppDelegate.swift */,
-				95968FC2251A46D100304417 /* GameScene.sks */,
-				95968FC4251A46D100304417 /* Actions.sks */,
-				95968FC6251A46D100304417 /* GameScene.swift */,
-				95968FC8251A46D100304417 /* GameViewController.swift */,
-				95968FCA251A46D100304417 /* Main.storyboard */,
+				95969066251A48B400304417 /* Model */,
+				95969065251A48AD00304417 /* View */,
+				95969064251A48A300304417 /* Controller */,
 				95968FCD251A46D400304417 /* Assets.xcassets */,
+				95526246251AE3000052DE17 /* Sources */,
 				95968FCF251A46D400304417 /* Info.plist */,
+				95969074251AACBB00304417 /* match.sks */,
 			);
 			path = LineDevices;
+			sourceTree = "<group>";
+		};
+		95969011251A471300304417 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				95969012251A471300304417 /* selected.wav */,
+				95969013251A471300304417 /* magic.wav */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		95969014251A471300304417 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				95969015251A471300304417 /* background.png */,
+				95969016251A471300304417 /* scoreboard.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		95969017251A471300304417 /* Jewels */ = {
+			isa = PBXGroup;
+			children = (
+				95969018251A471300304417 /* jewel_1.png */,
+				95969019251A471300304417 /* jewel_3.png */,
+				9596901A251A471300304417 /* jewel_2.png */,
+				9596901B251A471300304417 /* jewel_6.png */,
+				9596901C251A471300304417 /* jewel_5.png */,
+				9596901D251A471300304417 /* jewel_4.png */,
+			);
+			path = Jewels;
+			sourceTree = "<group>";
+		};
+		95969064251A48A300304417 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				95968FC8251A46D100304417 /* GameViewController.swift */,
+				95968FC6251A46D100304417 /* GameScene.swift */,
+				95969077251AB14500304417 /* LineScoreBoard.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		95969065251A48AD00304417 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				95968FC2251A46D100304417 /* GameScene.sks */,
+				95968FCA251A46D100304417 /* Main.storyboard */,
+				95968FC4251A46D100304417 /* Actions.sks */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		95969066251A48B400304417 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9596906B251A49A800304417 /* LineModel.swift */,
+				95969068251A491600304417 /* LineTile.swift */,
+				95969070251A4F8000304417 /* LineUtils.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,10 +228,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95969061251A471400304417 /* jewel_4.png in Resources */,
+				9596905D251A471400304417 /* jewel_3.png in Resources */,
+				95969059251A471400304417 /* magic.wav in Resources */,
+				9596905C251A471400304417 /* jewel_1.png in Resources */,
+				9596905B251A471400304417 /* scoreboard.png in Resources */,
 				95968FCC251A46D100304417 /* Main.storyboard in Resources */,
+				9596905A251A471400304417 /* background.png in Resources */,
 				95968FC3251A46D100304417 /* GameScene.sks in Resources */,
+				95969060251A471400304417 /* jewel_5.png in Resources */,
+				95969075251AACBB00304417 /* match.sks in Resources */,
 				95968FCE251A46D400304417 /* Assets.xcassets in Resources */,
 				95968FC5251A46D100304417 /* Actions.sks in Resources */,
+				9596905F251A471400304417 /* jewel_6.png in Resources */,
+				9596905E251A471400304417 /* jewel_2.png in Resources */,
+				95969058251A471400304417 /* selected.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,9 +253,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95969069251A491600304417 /* LineTile.swift in Sources */,
+				95969071251A4F8000304417 /* LineUtils.swift in Sources */,
 				95968FC7251A46D100304417 /* GameScene.swift in Sources */,
 				95968FC9251A46D100304417 /* GameViewController.swift in Sources */,
 				95968FC1251A46D100304417 /* AppDelegate.swift in Sources */,
+				9596906C251A49A800304417 /* LineModel.swift in Sources */,
+				95969078251AB14500304417 /* LineScoreBoard.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,6 +401,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5FDA988DZF;
 				INFOPLIST_FILE = LineDevices/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,6 +421,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5FDA988DZF;
 				INFOPLIST_FILE = LineDevices/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
